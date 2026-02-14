@@ -15,3 +15,18 @@ Remarks: feel free to modify this file for documentation
 TODO:
 ...
 
+
+### Serving
+
+a.a.a.a
+
+### Predictions
+Running predictions using `curl` command:
+```sh
+curl -X POST http://127.0.0.1:5000/predict2 -H "Content-Type: application/json" -d '{"experience_score": 4, "test_score": 7, "interview_score": 8}
+```
+
+Using Python request library: 
+```sh
+python src/predict.py
+```
